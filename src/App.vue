@@ -3,6 +3,7 @@ import DCHeader from './components/DCHeader.vue'
 import DCComics from './components/DCComics.vue'
 import DCIconBanner from './components/DCIconBanner.vue'
 import DCFooter from './components/DCFooter.vue'
+import DCFooterIcon from './components/DCFooterIcon.vue'
 
 import '@fontsource/pt-sans-narrow/400.css';
 import '@fontsource/pt-sans-narrow/700.css';
@@ -12,7 +13,8 @@ export default {
         DCHeader,
         DCComics,
         DCIconBanner,
-        DCFooter
+        DCFooter,
+        DCFooterIcon
     }
 }
 </script>
@@ -23,6 +25,7 @@ export default {
     <DCComics />
     <DCIconBanner />
     <DCFooter />
+    <DCFooterIcon />
 </template>
 
 
