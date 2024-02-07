@@ -89,14 +89,14 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    margin: 20px auto;
+    margin: 0 auto;
 
     figure {
-        height: 80px;
+        height: 60px;
     }
 
     img {
-        width: 80px;
+        width: 60px;
     }
 
     ul {
@@ -112,10 +112,6 @@ header {
     li:has(> a:hover) {
         border-bottom: 5px solid $brand_primary;
         padding-top: 0.3rem;
-    }
-
-    li {
-        list-style: none;
     }
 }
 </style>
