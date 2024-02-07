@@ -70,7 +70,7 @@ export default {
         <nav class="h-100">
             <ul class="flex h-100">
                 <li v-for="(element, index) in navLink" class="h-100 flex align-center"
-                    :class="element.current ? 'active-underline' : ''" @over="">
+                    :class="element.current ? 'active-underline' : ''">
                     <a href="{{ element.link }}" :class="element.current ? 'active' : ''">{{ element.name }}
                     </a>
                 </li>
