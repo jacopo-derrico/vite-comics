@@ -40,8 +40,8 @@ export default {
             <div>
                 <button>Sign-up now!</button>
             </div>
-
             <div class="socials">
+
                 <h3>Follow us</h3>
                 <ul>
                     <li v-for=" (element, index) in socialIcons" :key="index">

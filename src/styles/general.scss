@@ -52,6 +52,14 @@ li {
     width: $single-col;
 }
 
+.col-2 {
+    width: calc($single-col * 2);
+}
+
+.col-6 {
+    width: calc($single-col * 6);
+}
+
 .col-10 {
     width: calc($single-col * 10);
 }
